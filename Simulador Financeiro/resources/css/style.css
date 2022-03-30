@@ -1,0 +1,131 @@
+/* Importação das fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/**/
+
+
+
+/*Formatação da página*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #002B70;
+}
+/**/
+
+
+
+/*Header*/
+header{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header span{
+    font-size: 40px;
+    color: #002B70;
+    margin-left: 10px;
+}
+
+header img{
+    width: 50px;
+}
+/**/
+
+
+/*Conteúdo da Div inserir Saldo*/
+.main{
+    width: 100%;
+}
+
+.main .inserir_saldo{
+    background-color: white;
+    width: 400px;
+
+    padding: 40px;
+    margin-top: 80px;
+    border-radius: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .inserir_saldo span{
+    font-size: 30px;
+    color: #002B70;
+}
+
+.main .inserir_saldo input{
+    font-size: 20px;
+    color: #8A8A8A;
+    border: none;
+}
+
+.main .inserir_saldo input:focus{
+    outline: none;
+}
+/**/
+
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+button{
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+
+    color: #002B70;
+    font-weight: 700;
+    font-size: 25px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    animation: bounce 0.5s linear;
+    cursor: pointer;
+}
+
+.resultado{
+    color: white;
+    width: 500px;
+
+    margin-left: 450px;
+    margin-right: auto;
+}
+
+.resultado p span{
+    color: #BBBBBB;
+    width: 100%;
+}
+
+.resultado p{
+    margin-top: 10px;
+}
+
+@keyframes bounce {
+    20%{
+        transform: translate3d(0, -6px, 0);
+    }
+
+    40%{
+        transform: translate3d(0, 0px, 0);
+    }
+
+    80%{
+        transform: translate3d(0, 5px, 0);
+    }
+
+    100%{
+        transform: translate3d(0, 0px, 0);
+    }
+}
